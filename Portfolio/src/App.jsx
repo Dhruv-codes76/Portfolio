@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 export default function Portfolio() {
   return (
     <div className="bg-gray-50 text-gray-900">
-      {/* Hero Section */}
+      
       <section className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-indigo-600 via-purple-700 to-pink-600 text-white px-4">
-        {/* Name split into 3 lines */}
+        
         <h1 className="text-5xl font-bold leading-tight mb-4">
           <span className="block">Dhruv</span>
           <span className="block">Narayan</span>
           <span className="block">Vishwakarma</span>
         </h1>
 
-        {/* Subtitle */}
+        
         <p className="text-lg sm:text-xl mb-6">
           Full-Stack / MERN Developer
         </p>
 
-        {/* Buttons - stack on mobile, row on larger screens */}
+        
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto sm:justify-center">
           <a
             href="/Dhruv_s_Resume.pdf"
@@ -45,7 +45,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* About Section */}
+      
       <section className="max-w-4xl mx-auto py-16 px-6">
         <h2 className="text-3xl text-center font-bold mb-4">About Me</h2>
         <p className="text-lg leading-relaxed">
@@ -58,7 +58,7 @@ export default function Portfolio() {
         </p>
       </section>
 
-      {/* Projects Section */}
+      
       <section className="bg-gray-100 py-16 px-6">
         <h2 className="text-3xl font-bold text-center mb-10">Projects</h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -142,7 +142,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Skills Section */}
+      
       <section className="max-w-4xl mx-auto py-16 px-6">
         <h2 className="text-3xl text-center font-bold mb-5">Skills</h2>
         <div className="flex flex-wrap gap-3">
@@ -168,7 +168,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Training & Certificates Section */}
+      
       <section className="bg-gradient-to-r from-purple-50 to-indigo-50 py-16 px-6">
         <h2 className="text-3xl font-bold mb-8 text-center">
           Training & Certificates
@@ -200,7 +200,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Contact Section */}
+  
       <section className="bg-gradient-to-r from-indigo-600 to-purple-700 py-16 px-6 text-center text-white">
         <h2 className="text-3xl font-bold mb-6">Contact</h2>
 
